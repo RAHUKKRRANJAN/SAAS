@@ -8,8 +8,6 @@ VoiceBoard replaces traditional typing with voice input. Users simply press and 
 
 ## Key Features
 
-## Key Features
-
 ### Core Functionality
 - Press and hold recording with a single button interface
 - Real-time waveform visualization during voice recording
@@ -369,7 +367,7 @@ API requests use efficient multipart form-data encoding. The system includes aut
 - **Bearer Authentication**: Secure API key-based authentication
 - **No Audio Storage**: Groq API processes audio without permanent storage
 
-## 🐛 Error Handling
+##  Error Handling
 
 The keyboard handles various error scenarios gracefully:
 
@@ -391,7 +389,7 @@ The keyboard handles various error scenarios gracefully:
 - **Empty Recording**: No speech detected in audio
 - **Corrupted File**: Audio file processing failed
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing Checklist
 - [ ] Main app launches and requests microphone permission
@@ -411,7 +409,7 @@ The keyboard handles various error scenarios gracefully:
 - **iPad**: Ensure keyboard layout adapts to larger screens
 - **Simulator**: Useful for UI testing (limited audio functionality)
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 ### Potential Improvements
 - **Multiple Language Support**: UI localization for global users
@@ -426,22 +424,9 @@ The keyboard handles various error scenarios gracefully:
 - **Caching**: Cache common phrases to reduce API calls
 - **Analytics**: Usage metrics for improving user experience
 
-## 📄 License
 
-This project is provided as a technical assessment demonstration. Please ensure you have proper licensing for production use of:
-- Groq API services
-- Any third-party libraries or components
-- iOS App Store distribution
-
-## 📞 Support
-
-For technical issues or questions:
-1. Check the error messages in Xcode console
-2. Verify API key configuration
-3. Ensure microphone permissions are granted
-4. Test network connectivity
-5. Review iOS Settings → General → Keyboard configuration
 
 ---
 
 **VoiceBoard** - Transforming voice into text with the power of AI 🎤→📝
+
